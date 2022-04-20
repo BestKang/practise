@@ -29,4 +29,9 @@ public class SortTestHelper {
         }
         return "从小到大排序成功";
     }
+    public static void swap(Object[] arr, int i, int j) {
+        Object t = arr[i];
+        arr[i] = arr[j];
+        arr[j] = t;
+    }
 }
