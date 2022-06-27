@@ -3,6 +3,8 @@ package com.zyk.test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
+import java.util.stream.Collectors;
 
 public class Test12 {
     public static void main(String[] args) {
@@ -38,5 +40,8 @@ public class Test12 {
         //判断数组是否相等
         Arrays.equals(objArray.toArray(),objArray2.toArray());
         System.out.println("array1 与 array2 数组差集为："+objArray);
+        objArray.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+        //objArray.forEach(e->System.out.println(e));
+        System.out.println(objArray);
     }
 }
