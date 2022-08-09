@@ -7,7 +7,7 @@ package com.zyk.test;
  * @date 2021/12/27 14:46
  * @version: 1.0
  */
-public class Test10 {
+public class Test17 {
     public static void main(String[] args) {
         String s = "hello";
         String t = "hello";

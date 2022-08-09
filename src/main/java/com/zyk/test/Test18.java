@@ -9,7 +9,7 @@ import java.math.BigDecimal;
  * @date 2022/1/10 14:46
  * @version: 1.0
  */
-public class Test11 {
+public class Test18 {
     public static void main(String[] args) {
         BigDecimal a = new BigDecimal("100.03");
         BigDecimal b = new BigDecimal("6.7195");
