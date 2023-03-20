@@ -13,6 +13,9 @@ import java.util.HashMap;
 public class Test9 {
     public static void main(String[] args) {
         byte a = 127;
+//        byte b = 128;
+//        a= a/2;   直接爆红，错误    类型转换
+//        a= (byte) (a/2);  正确
         HashMap hashMap = new HashMap();
         hashMap.put(null,"ddd");
         System.out.println(hashMap);

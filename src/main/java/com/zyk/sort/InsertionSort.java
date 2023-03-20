@@ -36,7 +36,7 @@ public class InsertionSort {
 
     public static void main(String[] args) {
 
-        int N = 20000;
+        int N = 10;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 1000000);
         /*for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);

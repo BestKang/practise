@@ -14,18 +14,21 @@ public class test4 {
         try {
             System.out.println(a);
             a++;
+            //return a/0;
             return a;
         }catch (Exception e){
             e.printStackTrace();
             return 1;
         } finally {
             a = 20;
+            return 99;
         }
     }
 
     public static void main(String[] args) {
         int b = 3;
         test4 t4 = new test4();
+        //System.out.println(t4.Fd(2));
         int a = t4.Fd(b);
         System.out.println(a);
         System.out.println(b);

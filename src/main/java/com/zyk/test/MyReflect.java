@@ -31,6 +31,9 @@ public class MyReflect {
         MyReflect myReflect = new MyReflect();
         Class clz = myReflect.getClass();
         Constructor[] constructor = clz.getDeclaredConstructors();
+        for (int i = 0; i < constructor.length; i++) {
+            System.out.println(constructor[i]);
+        }
         Object o = constructor[0].newInstance();
         System.out.println(o.toString());
     }

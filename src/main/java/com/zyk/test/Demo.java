@@ -8,6 +8,7 @@ package com.zyk.test;
  * @version: 1.0
  */
 public interface Demo{
+    int a = 0;
     //默认方法
     public default void method(){
         System.out.println("default method...");

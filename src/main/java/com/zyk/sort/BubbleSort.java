@@ -18,7 +18,7 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int N = 20000;
+        int N = 10;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100);
         /*for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
