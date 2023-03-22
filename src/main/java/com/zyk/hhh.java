@@ -24,6 +24,5 @@ public class hhh {
         reverse(Arrays.asList(ints));
 //        Collections.min(Arrays.asList(ints));
         Collections.reverse(Arrays.asList(a.toCharArray()));
-
     }
 }

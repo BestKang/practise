@@ -27,7 +27,9 @@ public class SubArrary {
         for (int i = 1; i < array.length; i++) {
             //i为包含array[i]的连续数组最大值的下标末尾
             max = Math.max(array[i],max+array[i]);
+            System.out.println("max:"+max);
             addResult = Math.max(addResult,max);
+            System.out.println("add:"+addResult);
         }
         return addResult;
     }
