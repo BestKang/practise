@@ -1,4 +1,4 @@
-package com.zyk;
+package com.zyk.niuke;
 
 
 public class BM95 {

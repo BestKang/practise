@@ -20,9 +20,15 @@ public class hhh {
       //  System.out.println(loader.getParent().getParent());
         System.out.println(new String(a.getBytes(StandardCharsets.UTF_8)));
         int[] ints = {1, 4, 6, 2, 3, 9, 10};
-
         reverse(Arrays.asList(ints));
 //        Collections.min(Arrays.asList(ints));
         Collections.reverse(Arrays.asList(a.toCharArray()));
+        System.out.println(Math.ceil(9.5));
+        System.out.println(Math.floor(9.5));
+
+        int[] bbb = new int[]{11,0,5,8,7,23};
+
     }
+
+
 }

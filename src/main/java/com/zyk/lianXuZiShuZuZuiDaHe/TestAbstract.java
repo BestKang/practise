@@ -1,6 +1,8 @@
 package com.zyk.lianXuZiShuZuZuiDaHe;
 
 public abstract class TestAbstract {
+    static Long aaa;
+    static int bbb;
     void call(){};
     TestAbstract(){}
     public void sell(){
@@ -8,5 +10,8 @@ public abstract class TestAbstract {
     }
     public static void main(String[] args) {
         System.out.println("jjjjjjjjj");
+
+        System.out.println(bbb);
+        System.out.println(aaa);
     }
 }
